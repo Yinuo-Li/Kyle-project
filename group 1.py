@@ -41,7 +41,7 @@ if choice == "1":
             print("\nHe glares at you, unmoved by your words.")
             print("'Mercy?' he spits. 'Did you show ME mercy back then?'")
             print("Before you can respond, everything goes black. The last thing you feel is the cold blade against your throat.")
-            print("\n--- BAD ENDING: Vengeance is Forever ---")
+            print("\n--- BAD ENDING")
 
         elif choice == "2":
             print("\nYou lunge at him, grabbing a rusty pipe from the ground.")
@@ -49,7 +49,7 @@ if choice == "1":
             print("With a smirk, he says, 'You never were a good fighter.'")
             print("He disappears into the shadows, leaving you alone.")
             print("You have escaped… but something tells you he will return.")
-            print("\n--- NEUTRAL ENDING: The Hunter Becomes the Hunted ---")
+            print("\n--- NEUTRAL ENDING ---")
 
         else:
             print("\nYou raise your hands. 'We don’t have to do this. We’re family.'")
@@ -57,27 +57,27 @@ if choice == "1":
             print("You recall an old memory from childhood—one only he would remember.")
             print("His grip on the knife loosens, and he drops it.")
             print("'Maybe... I was wrong about you,' he mutters before vanishing into the night.")
-            print("\n--- GOOD ENDING: Blood is Thicker Than Vengeance ---")
+            print("\n--- GOOD ENDING---")
 
     elif choice == "2":
         print("\nThe man pauses for a moment, as if considering whether to answer.")
         print("Finally, he says, 'I am someone you forgot... but I never forgot you.'")
         print("Before you can respond, he vanishes in a cloud of black smoke.")
         print("The cage is gone, but so is he. You are free… but left with more questions than answers.")
-        print("\n--- MYSTERY ENDING: The Forgotten One ---")
+        print("\n--- MYSTERY ENDING ---")
 
     else:
         print("\nYou turn and run as fast as you can.")
         print("But before you can escape, the stranger stretches out his hand.")
         print("Dark tendrils wrap around your body, pulling you back.")
         print("The last thing you hear is his whisper: 'You should have chosen wisely.'")
-        print("\n--- BAD ENDING: The Shadows Claim You ---")
+        print("\n--- BAD ENDING:---")
 
 elif choice == "2":
     print("\nYou refuse the offer and stay in the cage.")
     print("Days pass. Then weeks. No one comes for you.")
     print("The walls of the cage seem to close in, and eventually, darkness takes over.")
-    print("\n--- BAD ENDING: Forgotten by the World ---")
+    print("\n--- BAD ENDING ---")
 
 elif choice == "3":
     print("\nYou grip the bars, looking for weakness.")
@@ -95,23 +95,23 @@ elif choice == "3":
         print("\nYou wander for hours until you find an abandoned village.")
         print("The place is eerily silent, as if frozen in time.")
         print("Suddenly, you hear a voice whisper your name…")
-        print("\n--- MYSTERY ENDING: The Village of Echoes ---")
+        print("\n--- MYSTERY ENDING ---")
 
     elif choice == "2":
         print("\nYou hide in the shadows and watch as the stranger walks past your empty cage.")
         print("He seems confused, as if expecting you to still be there.")
         print("A wicked smile forms on his lips. 'No matter... I always find them.'")
         print("\nYou realize now—he was never offering freedom.")
-        print("\n--- HORROR ENDING: The Hunt Never Ends ---")
+        print("\n--- HORROR ENDING ---")
 
     else:
         print("\nYou decide to return and learn the truth.")
         print("But as you step forward, the ground beneath you crumbles.")
         print("You fall into darkness… and awaken somewhere else entirely.")
-        print("\n--- SECRET ENDING: The Cycle Begins Again ---")
+        print("\n--- SECRET ENDING---")
 
 else:
     print("\nInvalid choice. The world around you fades into nothingness.")
-    print("\n--- ERROR ENDING: Reality Collapses ---")
+    print("\n--- ERROR ENDING ---")
 
 print("\nThank you for playing!")
